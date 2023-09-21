@@ -1,5 +1,5 @@
 pkgname=sublime-merge
-pkgver=1.2083
+pkgver=1.2091
 pkgrel=1
 pkgdesc="Git Client, done Sublime"
 arch=('x86_64')
@@ -11,7 +11,7 @@ install=${pkgname}.install
 source=(
   "https://download.sublimetext.com/sublime_merge_build_${pkgver:2}_x64.tar.xz"
 )
-md5sums=('051f71b15d15134c7e722966afb14a10')
+md5sums=('f83fa1552e96135f1c75ab341d3d17d1')
 
 package() {
   cd "${srcdir}"
